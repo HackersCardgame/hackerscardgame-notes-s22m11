@@ -14,3 +14,6 @@ diese übermittlugn kann somit mit hoher wahrscheinlichekit zu richter cotti zur
 CC: @fedpolCH 
 
 github uplaod geht nicht für diese meldung, richter cotti hat somit zensurinfrstrautkr die verhindern soll dass aussagen auf github landen. selber schachzug wie inkamail nur dies mal mit etwas wie qFire
+
+filter ruleset  ist vermutlcih
+block github ganz, wenn https access auf github schalte wieder frei, würde upload per git protokoll/ssh verhindern
