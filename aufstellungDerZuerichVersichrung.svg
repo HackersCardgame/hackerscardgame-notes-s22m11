@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.74208053"
-     inkscape:cx="763.39424"
-     inkscape:cy="536.32993"
+     inkscape:cx="453.45483"
+     inkscape:cy="618.53126"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="1920"
@@ -33,13 +33,43 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs2" />
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path50411" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path50417" />
+    </marker>
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g7736">
+       id="g7736"
+       transform="matrix(0.69450774,0,0,0.69450774,29.044442,2.1601167)">
       <rect
          style="fill:#ffff00;stroke:#ff0000;stroke-width:2.46518;stroke-linecap:round"
          id="rect846"
@@ -67,7 +97,7 @@
     </g>
     <g
        id="g7742"
-       transform="translate(4.4400471)">
+       transform="matrix(0.69450774,0,0,0.69450774,32.128089,2.1601167)">
       <rect
          style="fill:#ffff00;stroke:#ff0000;stroke-width:2.46518;stroke-linecap:round"
          id="rect846-3"
@@ -95,7 +125,7 @@
     </g>
     <g
        id="g7748"
-       transform="translate(-6.021128)">
+       transform="matrix(0.69450774,0,0,0.69450774,24.862722,2.1601167)">
       <rect
          style="fill:#ffff00;stroke:#ff0000;stroke-width:2.46518;stroke-linecap:round"
          id="rect846-35"
@@ -118,7 +148,7 @@
     </g>
     <g
        id="g7748-2"
-       transform="translate(62.313604)">
+       transform="matrix(0.69450774,0,0,0.69450774,72.321722,2.1601167)">
       <rect
          style="fill:#ffff00;stroke:#ff0000;stroke-width:2.46518;stroke-linecap:round"
          id="rect846-35-7"
@@ -141,7 +171,7 @@
     </g>
     <g
        id="g7748-2-6"
-       transform="translate(141.19088,-0.53481766)">
+       transform="matrix(0.69450774,0,0,0.69450774,127.10259,1.7886816)">
       <g
          id="g14001"
          transform="translate(0,-2.9007178)">
@@ -177,95 +207,95 @@
       </g>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 34.065423,122.04859 272.477567,0"
+       style="fill:none;stroke:#000000;stroke-width:1.38902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 52.703141,86.923812 H 241.94092"
        id="path7834"
        sodipodi:nodetypes="cc" />
     <rect
-       style="fill:#ffff00;stroke:#ff0000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffff00;stroke:#ff0000;stroke-width:1.38902;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect14238"
-       width="59.186249"
-       height="39.826599"
-       x="14.945803"
-       y="34.442032" />
+       width="41.105309"
+       height="27.659882"
+       x="39.424419"
+       y="26.080376" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="19.993196"
-       y="42.950249"
+       style="font-style:normal;font-weight:normal;font-size:2.45007px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.183755"
+       x="42.929871"
+       y="31.989395"
        id="text16156"><tspan
          sodipodi:role="line"
          id="tspan16154"
-         style="font-weight:bold;font-size:7.05556px;stroke-width:0.264583"
-         x="19.993196"
-         y="42.950249">Blums</tspan><tspan
+         style="font-weight:bold;font-size:4.90014px;stroke-width:0.183755"
+         x="42.929871"
+         y="31.989395">Blums</tspan><tspan
          sodipodi:role="line"
-         style="font-size:3.52778px;stroke-width:0.264583"
-         x="19.993196"
-         y="48.648441"
+         style="font-size:2.45007px;stroke-width:0.183755"
+         x="42.929871"
+         y="35.946835"
          id="tspan16158">Traumabased</tspan><tspan
          sodipodi:role="line"
-         style="font-size:3.52778px;stroke-width:0.264583"
-         x="19.993196"
-         y="53.058167"
+         style="font-size:2.45007px;stroke-width:0.183755"
+         x="42.929871"
+         y="39.009422"
          id="tspan16702">Mindcontrol</tspan><tspan
          sodipodi:role="line"
-         style="font-size:3.52778px;stroke-width:0.264583"
-         x="19.993196"
-         y="57.467892"
+         style="font-size:2.45007px;stroke-width:0.183755"
+         x="42.929871"
+         y="42.072014"
          id="tspan16704">Kontext</tspan><tspan
          sodipodi:role="line"
-         style="font-size:3.52778px;stroke-width:0.264583"
-         x="19.993196"
-         y="61.877613"
+         style="font-size:2.45007px;stroke-width:0.183755"
+         x="42.929871"
+         y="45.134602"
          id="tspan16706">Claudine Blum</tspan><tspan
          sodipodi:role="line"
-         style="font-size:3.52778px;stroke-width:0.264583"
-         x="19.993196"
-         y="66.287338"
+         style="font-size:2.45007px;stroke-width:0.183755"
+         x="42.929871"
+         y="48.197189"
          id="tspan26071">auchg noch nach 21 Jahren</tspan><tspan
          sodipodi:role="line"
-         style="font-size:3.52778px;stroke-width:0.264583"
-         x="19.993196"
-         y="70.69706"
+         style="font-size:2.45007px;stroke-width:0.183755"
+         x="42.929871"
+         y="51.259781"
          id="tspan26073">Suizidal deswegen</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.244288px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 34.21721,122.86295 v 14.22728"
+       style="fill:none;stroke:#000000;stroke-width:0.16966px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 52.808558,87.489386 v 9.880956"
        id="path20083" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.244288px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 101.61465,122.86295 v 14.22728"
+       style="fill:none;stroke:#000000;stroke-width:0.16966px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 99.616605,87.489386 v 9.880956"
        id="path20083-6" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.244288px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 169.0012,122.86295 v 14.22728"
+       style="fill:none;stroke:#000000;stroke-width:0.16966px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 146.41708,87.489386 v 9.880956"
        id="path20083-1" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.244288px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 236.7443,122.86295 v 14.22728"
+       style="fill:none;stroke:#000000;stroke-width:0.16966px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 193.46519,87.489386 v 9.880956"
        id="path20083-8" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.244288px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 306.27011,122.86295 v 14.22728"
+       style="fill:none;stroke:#000000;stroke-width:0.16966px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 241.7514,87.489386 v 9.880956"
        id="path20083-7" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="51.314629"
-       y="117.43505"
+       style="font-style:normal;font-weight:normal;font-size:6.12517px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.183755"
+       x="64.682846"
+       y="83.719666"
        id="text21179"><tspan
          sodipodi:role="line"
          id="tspan21177"
-         style="font-size:8.81944px;stroke-width:0.264583"
-         x="51.314629"
-         y="117.43505">NSA / CIA Wirtschaftsspionage Management-Netzwerk</tspan></text>
+         style="font-size:6.12517px;stroke-width:0.183755"
+         x="64.682846"
+         y="83.719666">NSA / CIA Wirtschaftsspionage Management-Netzwerk</tspan></text>
     <g
        inkscape:export-ydpi="582.27002"
        inkscape:export-xdpi="582.27002"
        inkscape:export-filename="/home/marc/disk/HackersCardgame11/png/EN/sk1.png"
        id="g7117-78-2-0"
-       transform="matrix(0.2984497,0,0,0.2984497,-763.22273,-2.0182657)"
+       transform="matrix(0.20727563,0,0,0.20727563,-469.37275,3.5059421)"
        style="display:inline;fill:none;stroke:#000000;stroke-width:2.26411;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new">
       <path
          inkscape:connector-curvature="0"
@@ -357,67 +387,97 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="115.2161"
-       y="271.24658"
+       style="font-style:normal;font-weight:normal;font-size:7.35018px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.183755"
+       x="140.70981"
+       y="193.2905"
        id="text30274"><tspan
          sodipodi:role="line"
          id="tspan30272"
-         style="font-weight:bold;stroke-width:0.264583"
-         x="115.2161"
-         y="271.24658">ICH</tspan></text>
+         style="font-weight:bold;stroke-width:0.183755"
+         x="140.70981"
+         y="193.2905">ICH</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.4151px;line-height:1.05;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.160378"
-       x="257.2005"
-       y="33.232605"
+       style="font-style:normal;font-weight:normal;font-size:4.45534px;line-height:1.05;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.111384"
+       x="207.67218"
+       y="25.240417"
        id="text43532"><tspan
          sodipodi:role="line"
          id="tspan43530"
-         style="text-align:center;text-anchor:middle;stroke-width:0.160378"
-         x="257.2005"
-         y="33.232605">Ob und wieviel Medikamente ich hatte</tspan><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.111384"
+         x="207.67218"
+         y="25.240417">Ob und wieviel Medikamente ich hatte</tspan><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;stroke-width:0.160378"
-         x="257.2005"
-         y="39.96846"
+         style="text-align:center;text-anchor:middle;stroke-width:0.111384"
+         x="207.67218"
+         y="29.918524"
          id="tspan43534">hat keinen Einfluss auf meinen Psychischen</tspan><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;stroke-width:0.160378"
-         x="257.2005"
-         y="46.704315"
+         style="text-align:center;text-anchor:middle;stroke-width:0.111384"
+         x="207.67218"
+         y="34.59663"
          id="tspan43536">Zustand, wenn ich wieder etwas herausgefunden</tspan><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;stroke-width:0.160378"
-         x="257.2005"
-         y="53.44017"
+         style="text-align:center;text-anchor:middle;stroke-width:0.111384"
+         x="207.67218"
+         y="39.274738"
          id="tspan43538">habe oder so eine Zeichnung gemacht habe wie</tspan><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;stroke-width:0.160378"
-         x="257.2005"
-         y="60.176025"
+         style="text-align:center;text-anchor:middle;stroke-width:0.111384"
+         x="207.67218"
+         y="43.952843"
          id="tspan43540">diese hier habe ich wieder Epilepsie Anfälle, egal</tspan><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;stroke-width:0.160378"
-         x="257.2005"
-         y="66.91188"
+         style="text-align:center;text-anchor:middle;stroke-width:0.111384"
+         x="207.67218"
+         y="48.630951"
          id="tspan43542">wieviele Medis ich hatte oder nicht hatte</tspan><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;stroke-width:0.160378"
-         x="257.2005"
-         y="73.647736"
+         style="text-align:center;text-anchor:middle;stroke-width:0.111384"
+         x="207.67218"
+         y="53.309059"
          id="tspan47294" /><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;stroke-width:0.160378"
-         x="257.2005"
-         y="80.383591"
+         style="text-align:center;text-anchor:middle;stroke-width:0.111384"
+         x="207.67218"
+         y="57.987164"
          id="tspan47296">=&gt; So bisschen wie der <tspan
-   style="font-weight:bold"
+   style="font-weight:bold;stroke-width:0.111384"
    id="tspan49556">nicht wirksame</tspan> Honig-Schnaps im</tspan><tspan
          sodipodi:role="line"
-         style="text-align:center;text-anchor:middle;stroke-width:0.160378"
-         x="257.2005"
-         y="87.119446"
-         id="tspan47298">Buch &quot;Der Medicus&quot;</tspan></text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.111384"
+         x="207.67218"
+         y="62.665272"
+         id="tspan47298">Buch &quot;Der Medicus&quot;, bzw. die Medikamente schwächen mich</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.111384"
+         x="207.67218"
+         y="67.343376"
+         id="tspan52425">sogar und ich kann mich intelligenz-gemindert weniger wehren</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.694508;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 52.428663,113.71634 c 0,0 56.507077,41.05521 78.444417,50.38368"
+       id="path50232"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.694508;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 99.905146,112.84536 36.715384,44.10299"
+       id="path50234"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.694508;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 147.41071,113.63507 0.0369,39.77479"
+       id="path50236"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.694508;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 195.21752,113.17248 c 0,0 -18.56539,32.84177 -38.50338,43.566"
+       id="path50238"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.694508;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 243.41742,113.13851 -85.13945,50.55725"
+       id="path50240"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
