@@ -69,7 +69,8 @@ for (i = 0; i < 4; i++)
 }
 
 for(i = 0; i < count; i++)
-  blink(sequence[0]);
+  setTimeout(function() { blink(sequence[i]);}, i*1000);
+  
 
 
 </script>
