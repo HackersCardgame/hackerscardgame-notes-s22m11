@@ -38,7 +38,7 @@ function blink(nr)
   console.log("blink()", nr);
   document.getElementById(color[nr]).style.color = color[nr];
 
-  setTimeout(reset(), 500, nr);
+  setTimeout(reset, 500, nr);
 
 }
 
@@ -47,7 +47,7 @@ function display()
   for(i = 0; i < last; i++)
   {
     console.log("for: ", i, last, 2, "seq: ",sequence[i]);
-    setTimeout(blink(), 2000, 1);
+    setTimeout(blink, 1000+i*1000, i);
   }
 }
 
