@@ -3,18 +3,17 @@
 <body>
 
 <style>
-h1 {text-align: center;}
-p {text-align: center;}
-div {text-align: center;}
+div {
+  float: left;
+  height: 200px;
+  width: 200px;
+}
+
 </style>
 
-<div>
-  <font size="100em">
-    <span id="green">■</span> <span id="red">■</span><br>
-    <span id="goldenrod">■</span> <span id="blue">■</span>
-  </font>
-</div>
-
+    <div id="green">■</div> <div id="red">■</div>
+    <div  style="clear:both;" id="goldenrod">■</div> <div id="blue">■</div>
+  
 <script>
 
 var color = ['green', 'red', 'goldenrod', 'blue'];
@@ -29,14 +28,14 @@ function getRandomInt(max) {
 
 function reset(nr)
 {
-  document.getElementById(color[nr]).style.color = "dark"+color[nr];
+  document.getElementById(color[nr]).style.backgroundColor = "dark"+color[nr];
 }
 
 
 function blink(nr)
 {
   console.log("blink()", nr);
-  document.getElementById(color[nr]).style.color = color[nr];
+  document.getElementById(color[nr]).style.backgroundColor = color[nr];
 
   setTimeout(reset, 500, nr);
 
@@ -81,7 +80,7 @@ function check(event, nr)
 
 function init(i) {
   console.log(i);
-  document.getElementById(color[i]).style.color = "dark"+color[i];
+  document.getElementById(color[i]).style.backgroundColor = "dark"+color[i];
   const element = document.getElementById(color[i]);
   element.addEventListener("click", check);
 }
