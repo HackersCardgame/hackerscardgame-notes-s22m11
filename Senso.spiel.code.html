@@ -2,8 +2,6 @@
 <html style="background-color:black;">
 <body>
 
-
-
 <style>
 h1 {text-align: center;}
 p {text-align: center;}
@@ -19,8 +17,15 @@ div {text-align: center;}
 
 <script>
 
-
 var color = ['green', 'red', 'goldenrod', 'blue'];
+
+var sequence = [ getRandomInt(4) ];
+var index = 0;
+var count = 5;
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 
 function reset(nr)
 {
@@ -39,36 +44,32 @@ function blink(nr)
 
 function check(event, nr)
 {
-  Math.random(4)
-
   var target = event.target || event.srcElement;
   lastID = target.id;
-
-  alert(lastID);
+  if (lastID == color[sequence[index]])
+  {
+    alert(lastID);
+    sequence.push(getRandomInt(4));
+    index += 1;
+  }
+  else
+    alert("FAIL");
 }
 
-
-
-
-
-function myFunction(i) {
+function init(i) {
   console.log(i);
   document.getElementById(color[i]).style.color = "dark"+color[i];
   const element = document.getElementById(color[i]);
   element.addEventListener("click", check);
-  //setTimeout(function() { blink(i);}, i*1000)
 }
-
-
 
 for (i = 0; i < 4; i++)
 {
-  myFunction(i);
-  //console.log(document.getElementById(color[i]));
-  console.log(color[i], myFunction, i);
-
+  init(i);
 }
 
+for(i = 0; i < count; i++)
+  blink(sequence[0]);
 
 
 </script>
