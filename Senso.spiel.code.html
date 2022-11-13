@@ -35,7 +35,7 @@ function reset(nr)
 
 function blink(nr)
 {
-  console.log(nr);
+  console.log("blink()", nr);
   document.getElementById(color[nr]).style.color = color[nr];
 
   setTimeout(function() { reset(nr);}, 500);
