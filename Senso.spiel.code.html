@@ -21,7 +21,7 @@ var color = ['green', 'red', 'goldenrod', 'blue'];
 
 var sequence = [ getRandomInt(4) ];
 var index = 0;
-var count = 1;
+var last = 1;
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -44,7 +44,7 @@ function blink(nr)
 
 function display()
 {
-  for(i = 0; i < count; i++)
+  for(i = 0; i < last; i++)
   {
     setTimeout(blink(sequence[i]), 1000+i*1000);
     console.log("seq: ",sequence[i]);
@@ -57,12 +57,14 @@ function check(event, nr)
   lastID = target.id;
   if (lastID == color[sequence[index]])
   {
-    //alert(lastID);
-    if (index==count) 
+    if (index==(last-1))
     {
-      index += 1;
-      console.log(index,count);
+      last += 1;
       sequence.push(getRandomInt(4));
+      console.log(index + " " + last);
+      console.log(sequence);
+      index=0;
+      display();
     }
   }
   else
@@ -112,6 +114,8 @@ Dann waren die super aggressiv auf mich als ich angefangen habe den Drogendealer
 zum Perfekt und dass die unschuldige Autisten angreifen wäre vermutlich das "Feinde der Scientology" eine vom cia absichtlich falsche platzierte spur gewesen
 
 dann hat der georg landolt (1950) mal gesagt "bisschen xtc ist gut", was somit hiesse, dass man schon als ich mit 5 jahren in den keller gekommen bin mit autismus-früherkennung herausgefunden hat dass man mich absondern und ausgrenzen muss weil sonst das hier auffliegt
+
+also das ganze projekt wurde bereits in irgend ein 3d modell umgebaut, prokastrinieren karte, algorithmus fast geschafft ===[EventTrigger]===> arbeite jetzt am design
 
 </font>
 
