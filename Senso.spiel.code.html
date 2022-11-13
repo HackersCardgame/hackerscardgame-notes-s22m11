@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color:black;">
 <body>
 
 
@@ -15,13 +15,30 @@
 
 <script>
 
-//es scheint eine Brain-Function zu geben die JavaScript Skills wieder aus meinem Kopf löscht, da vermute ich werden einfach alle befehle nachts beim schlafen random unssinig geordnet eingeblendet, so wie eine entmagnetisierungskurve bei aleten CRT's, brauche immer ca 1 Tag bis ich wieder effizient bin. dann tippe ich darauf dass main in meinem gehirn bereiche selektiv sperren kann, also z.B. mit weissem Rauschen dysfunktional machen, somit wäre die frage wo in meinem gehirn sind die javascript skills abgelegt
+//es scheint eine Brain-Function zu geben die JavaScript Skills wieder aus meinem Kopf löscht, da vermute ich werden einfach alle befehle nachts beim schlafen random unssinig geordnet eingeblendet, so wie eine entmagnetisierungskurve bei aleten CRT's, brauche immer ca 1 Tag bis ich wieder effizient bin. dann tippe ich darauf dass main in meinem gehirn bereiche selektiv sperren kann, also z.B. mit weissem Rauschen dysfunktional machen, somit wäre die frage wo in meinem gehirn sind die javascript skills abgelegt. einer der häufigsten befehle den ich verwende um den programmfluss zu kontrollierne ist "console.log" der wurde irgendwie gesperrt
 //da gibt es ein Team von menschen die während ich mit vergewaltigungsandrohungen davon abgehalten werde das grad zu programmieren meine aufgabe schon mal abschaut, das shcon mal programmiert und einen Algorithmus der alle fehler bei den NPC sammelt und mich damit besichesst, ich vermute das sind nerds die das gar nicht mehrken dass sie instrumentalisiert werden
 
 var color = ['green', 'red', 'orange', 'blue'];
 
+function reset(nr)
+{
+  document.getElementById(color[nr]).style.color = "dark"+color[nr];
+}
+
+
+function blink(nr)
+{
+  console.log(nr);
+  document.getElementById(color[nr]).style.color = color[nr];
+
+  setTimeout(function() { reset(nr);}, 500);
+
+}
+
+
 function myFunction(i) {
   document.getElementById(color[i]).style.color = "dark"+color[i];
+  setTimeout(function() { blink(i);}, i*1000)
 }
 
 
