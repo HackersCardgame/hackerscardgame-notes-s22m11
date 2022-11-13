@@ -37,24 +37,31 @@ function blink(nr)
 
 }
 
-function check()
+function check(event, nr)
 {
-  alert("TEST");
+  Math.random(4)
+
+  var target = event.target || event.srcElement;
+  lastID = target.id;
+
+  alert(lastID);
 }
 
 
-const element = document.getElementById("red");
-element.addEventListener("click", check);
+
 
 
 function myFunction(i) {
+  console.log(i);
   document.getElementById(color[i]).style.color = "dark"+color[i];
-  setTimeout(function() { blink(i);}, i*1000)
+  const element = document.getElementById(color[i]);
+  element.addEventListener("click", check);
+  //setTimeout(function() { blink(i);}, i*1000)
 }
 
 
 
-for (i = 0; i < 10; i++)
+for (i = 0; i < 4; i++)
 {
   myFunction(i);
   //console.log(document.getElementById(color[i]));
