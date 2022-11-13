@@ -47,7 +47,7 @@ function display()
   for(i = 0; i < last; i++)
   {
     console.log("for: ", i, last, 2, "seq: ",sequence[i]);
-    setTimeout(blink, 1000+i*1000, i);
+    setTimeout(blink, 1000+i*1000, sequence[i]);
   }
 }
 
@@ -55,6 +55,7 @@ function check(event, nr)
 {
   var target = event.target || event.srcElement;
   lastID = target.id;
+  console.log(sequence[index]);
   if (lastID == color[sequence[index]])
   {
     if (index==(last-1))
