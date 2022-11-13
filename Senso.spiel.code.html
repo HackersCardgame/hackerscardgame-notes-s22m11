@@ -21,7 +21,7 @@ var color = ['green', 'red', 'goldenrod', 'blue'];
 
 var sequence = [ 1,3,2,1 ];
 var index = 0;
-var last = 1;
+var last = sequence.length;
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -46,8 +46,8 @@ function display()
 {
   for(i = 0; i < last; i++)
   {
-    console.log("i, last);
-    setTimeout(blink(sequence[i]), 1000+i*1000);
+    console.log("for: ", i, last);
+    setTimeout(function() { blink(sequence[i]);}, 1000+i*1000);
     console.log("seq: ",sequence[i]);
   }
 }
@@ -119,6 +119,11 @@ dann hat der georg landolt (1950) mal gesagt "bisschen xtc ist gut", was somit h
 also das ganze projekt wurde bereits in irgend ein 3d modell umgebaut, prokastrinieren karte, algorithmus fast geschafft ===[EventTrigger]===> arbeite jetzt am design
 
 die täter haben massiv angst, dass ich mit dem progrmmieren des selben spiels wie stefan ein crypto puzzle übertragen würde mit geheimen informatione
+
+dann beim konzentrieren auf den algorihtmus wird induzierte epilepsie peek dazu verwendet mein kurzzeitgedächtnis zu löschen
+also für urs astrid georg margrit wäre somit die anklage schrift ausländische spionagetätigkeit und auch blödhiet, und vermutlich stehen die dann auch mit der ermordung von tobias moser in zusammenhang
+
+
 
 </font>
 
