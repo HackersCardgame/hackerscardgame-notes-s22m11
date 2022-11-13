@@ -47,8 +47,8 @@ function display()
   for(i = 0; i < last; i++)
   {
     console.log("for: ", i, last);
-    setTimeout(function() { blink(sequence[i]);}, 1000+i*1000);
     console.log("seq: ",sequence[i]);
+    setTimeout(function() { blink(sequence[i]);}, 1000+i*1000);
   }
 }
 
