@@ -5,13 +5,13 @@
 <style>
 div {
   float: left;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 </style>
 
     <div id="green">■</div> <div id="red">■</div>
-    <div  style="clear:both;" id="goldenrod">■</div> <div id="blue">■</div>
+    <div style="clear:both;" id="goldenrod">■</div> <div id="blue">■</div>
   
 <script>
 
@@ -32,7 +32,6 @@ function beep() {
   oscillator.frequency.value = 200;
   oscillator.connect(context.destination);
   oscillator.start(); 
-  // Beep for 500 milliseconds
   setTimeout(function () {
       oscillator.stop();
   }, 100);
@@ -82,8 +81,6 @@ function check(event, nr)
     return;
   }
   index+=1;
-    
-
 }
 
 function init(i) {
