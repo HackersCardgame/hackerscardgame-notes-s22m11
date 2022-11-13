@@ -21,7 +21,7 @@ var color = ['green', 'red', 'goldenrod', 'blue'];
 
 var sequence = [ getRandomInt(4) ];
 var index = 0;
-var count = 5;
+var count = 1;
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -42,15 +42,28 @@ function blink(nr)
 
 }
 
+function display()
+{
+  for(i = 0; i < count; i++)
+  {
+    setTimeout(blink(sequence[i]), 1000+i*1000);
+    console.log("seq: ",sequence[i]);
+  }
+}
+
 function check(event, nr)
 {
   var target = event.target || event.srcElement;
   lastID = target.id;
   if (lastID == color[sequence[index]])
   {
-    alert(lastID);
-    sequence.push(getRandomInt(4));
-    index += 1;
+    //alert(lastID);
+    if (index==count) 
+    {
+      index += 1;
+      console.log(index,count);
+      sequence.push(getRandomInt(4));
+    }
   }
   else
     alert("FAIL");
@@ -68,9 +81,7 @@ for (i = 0; i < 4; i++)
   init(i);
 }
 
-for(i = 0; i < count; i++)
-  setTimeout(function() { blink(sequence[i]);}, i*1000);
-  
+display();
 
 
 </script>
