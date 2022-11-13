@@ -55,7 +55,7 @@ function check(event, nr)
 {
   var target = event.target || event.srcElement;
   lastID = target.id;
-  console.log(sequence[index]);
+  console.log(index, sequence[index], color[sequence[index]]);
   if (lastID == color[sequence[index]])
   {
     if (index==(last-1))
