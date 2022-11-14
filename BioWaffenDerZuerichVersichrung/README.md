@@ -30,5 +30,12 @@ das mit der "ableitung über die axilla" an der achsel war auch so etwas, aber t
 
 dann soll das auch alle zuschauer und jüngere vermutlcih einschüchtern
 
+also chemitrode egal wo am körper ist "anschiessen light"
+* schwächt den zeugen / opfer
+* schüchtert den zeugen ein
+* erhöht das risiko für suizid oder amoklauf
+* während der einwirkungsdauer wird versucht den zeugen über neuralink oder sonst irgendwelche kommunikationskanäle zu manipulieren
+
+also wenn ein zeuge so etwas berichtet kann man davon ausgehen, dass er ein zeuge gegen ein mächtiger konzern ist, bzw. würde jetzt wo das öffentlihc ist pfisterer oder urs blum sich selber solche verpassen ums sich zu tarnen
 
  
