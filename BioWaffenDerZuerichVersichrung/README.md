@@ -47,3 +47,8 @@ ich:
 urs blum versucht jetzt den mathias berner zu noch mehr straftaten anzustiften?
 
 
+Mon Nov 14 05:23:39 PM CET 2022
+zur zeit ist die täterschaft auf meinem neuralink und wartet nur darauf 
+auf mich einschlagen zu können oder mich vom balkon zu steuern.
+
+
