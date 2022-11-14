@@ -68,4 +68,13 @@ nachbar hat so etwas eingeschaltet
 
 [1] cAPI
 
+nicht schlafen gehen = wachtherapie => auch psychotischer 
+
+
+somit so eine art eine aufstllung mit verschiedenen abgesägten ausgängen die dann den zeugen wieder in die psyhiatrie bringen würde um
+zu verhindern dass er vor gericht gegen die zürich verischrung aussagt
+
+
+
+
 
