@@ -13,3 +13,16 @@ ich: Chemitroden gibt es echt, gibt es science papers darüber und logischerweis
 
 
 
+ __  __  ___ _____ _____     __
+|  \/  |/ _ \_   _|_ _\ \   / /
+| |\/| | | | || |  | | \ \ / / 
+| |  | | |_| || |  | |  \ V /  
+|_|  |_|\___/ |_| |___|  \_/   
+                              
+Urs Blum lässt diese Biowaffen immer dann aktivieren, wenn der Zürich Versicherung eine milliarden klage ins haus steht <- nicht wie ich formulieren würde aber ich vermute das ist das motiv der zürich verischrung bzw. von urs blum wenn er diese dinge aktiviert oder aktivieren lässt
+
+somit wäre auch eine wichtige frage wann man mir das verpasst hat
+=> suizidgrund wenn jemand an meinem körper war
+
+
+ 
