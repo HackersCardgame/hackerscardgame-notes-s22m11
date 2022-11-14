@@ -1,0 +1,121 @@
+/*
+Theme Name: Thinker Lite
+* Styles for Gutenberg blocks
+*/
+
+
+.gutenberg .entry-content{
+	font-size: 16px;
+	line-height: 1.8;
+	margin: 0 auto;
+	display: block;
+}
+
+.wp-block-image img {
+		display: block;
+		width: 100%;
+}
+
+.wp-block-button {
+	border-radius: 0;
+}
+
+.wp-block-image.alignright{
+	max-width: 50%;
+	margin-left:60px;
+}
+
+.wp-block-image.alignleft{
+	max-width: 50%;
+	margin-right:60px;
+}
+
+.wp-block-image figcaption{
+	max-width: 100%;
+}
+
+body.gutenberg {
+	overflow-x: hidden;
+}
+
+.no-sidebar .alignfull,
+.no-sidebar .wp-block-cover-image,
+.page-template-full-width .alignfull,
+.page-template-full-width .wp-block-cover-image {
+	width: 98vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-bottom: 40px;
+	margin-left: -49vw;
+	margin-right: -50vw;
+}
+
+.alignwide {
+	margin-left: -10vw;
+	margin-right: -10vw;
+}
+
+.wp-block-button {
+	border-radius: 0;
+}
+
+.wp-block-quote {
+	margin: 0 0 46px;
+}
+
+.wp-block-separator {
+	border-bottom: 1px solid #cdcdcd;
+	margin: 2em auto;
+	max-width: 100%;
+}
+@media screen and (max-width: 840px) {
+	.alignwide {
+		margin-left: -5vw;
+		margin-right: -5vw;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.alignwide {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+pre.wp-block-verse,
+.wp-block-verse pre {
+		white-space: nowrap;
+		font-family: inherit;
+		font-size: inherit;
+		padding: 1em;
+		background:none;
+}
+
+.wp-block-code{
+		border-radius: 4px;
+		background:none;
+}
+
+.wp-block-button {
+	margin: 0 0 1em 0;
+}
+
+.wp-block-pullquote {
+	border-left: none;
+}
+
+.wp-block-pullquote>p{
+	font-family: "Noto Serif",serif;
+}
+
+.wp-block-table td, 
+.wp-block-table th {
+		padding: 0.5em;
+}
+
+.wp-block-table {
+		width: 100%;
+		display: table;
+}
+
