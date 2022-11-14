@@ -59,8 +59,13 @@ wäre vermtulich in etwas wie einem Microsoft Project eingetragen. ich nehme ein
   zündung der chemitrode
   |                                    bett gehen <- da wäre ich am vulnerabelsten, also gehe ich verletzt nicht ins bett
   v                                    ------------------
-==x========================================================>
+==x========================================================> induzierter SUIZID
      ----------------------------------------------------   <- zugriff auf neuralink
+      ---------      -----             --------             <- kokain konsumenten im schicht-betrieb
+              --------        ---------------               <- kokain konsumenten im schicht-betrieb
+                     ----------           ---------         <- kokain konsumenten im schicht-betrieb
+
+
 
 
 hiesse grad im moment hat es wieder zusätzliche SDR's irgend in der näheren umgebung oder irgend ein
