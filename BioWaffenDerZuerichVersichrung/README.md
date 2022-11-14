@@ -38,4 +38,6 @@ also chemitrode egal wo am körper ist "anschiessen light"
 
 also wenn ein zeuge so etwas berichtet kann man davon ausgehen, dass er ein zeuge gegen ein mächtiger konzern ist, bzw. würde jetzt wo das öffentlihc ist pfisterer oder urs blum sich selber solche verpassen ums sich zu tarnen
 
+dann vor einem jahr bevor die mich in die psyhcitrie gespert haben wegen einer solchen biowaffe an meiner axilla die die selber ausgelöst haben hatte ich das gefühl, dass diese dinger mehrere kammern haben die einzeln, miteinander oder nacheinander geöffnet werden remote um die einwirkungsdauer zu erhöhen
+
  
