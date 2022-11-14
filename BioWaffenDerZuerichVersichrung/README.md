@@ -60,12 +60,17 @@ wäre vermtulich in etwas wie einem Microsoft Project eingetragen. ich nehme ein
   |                                    bett gehen <- da wäre ich am vulnerabelsten, also gehe ich verletzt nicht ins bett
   v                                    ------------------
 ==x========================================================> induzierter SUIZID
-     ----------------------------------------------------   <- zugriff auf neuralink
+     ----------------------------------------------------   <- zugriff auf neuralink  <- das abschalten, dann können die kokain konsumenten nicht zugreifen
       ---------      -----             --------             <- kokain konsumenten im schicht-betrieb
               --------        ---------------               <- kokain konsumenten im schicht-betrieb
                      ----------           ---------         <- kokain konsumenten im schicht-betrieb
 
 
+                                                               bzw. code fingerprinting 
+                                                               bzw. Natural Language Processing
+                                                               wenn wir diese menschen identifizieren können wir weitere täter in den kanst tun
+
+also pfisterer verkauft die sklaven der zürich verischrung für rache
 
 
 hiesse grad im moment hat es wieder zusätzliche SDR's irgend in der näheren umgebung oder irgend ein
