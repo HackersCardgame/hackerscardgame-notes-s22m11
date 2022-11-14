@@ -40,4 +40,10 @@ also wenn ein zeuge so etwas berichtet kann man davon ausgehen, dass er ein zeug
 
 dann vor einem jahr bevor die mich in die psyhcitrie gespert haben wegen einer solchen biowaffe an meiner axilla die die selber ausgelöst haben hatte ich das gefühl, dass diese dinger mehrere kammern haben die einzeln, miteinander oder nacheinander geöffnet werden remote um die einwirkungsdauer zu erhöhen
 
- 
+URS BLUM:
+somit müsste man den Mattias berner der wegen der axilla ein sonderkommando aufgeboten hat (somit mit hoher wahrscheinlichkeit beteiligt) mal in den zeugenstand setzen
+
+ich: 
+urs blum versucht jetzt den mathias berner zu noch mehr straftaten anzustiften?
+
+
