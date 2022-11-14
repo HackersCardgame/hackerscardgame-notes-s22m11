@@ -52,3 +52,20 @@ zur zeit ist die täterschaft auf meinem neuralink und wartet nur darauf
 auf mich einschlagen zu können oder mich vom balkon zu steuern.
 
 
+
+so eine Therapie (Euphemismus für Mordversuch) [1]
+wäre vermtulich in etwas wie einem Microsoft Project eingetragen. ich nehme einfach das microsoft produkt weil das die meisten kennen
+
+  zündung der chemitrode
+  |                                    bett gehen <- da wäre ich am vulnerabelsten, also gehe ich verletzt nicht ins bett
+  v                                    ------------------
+==x========================================================>
+     ----------------------------------------------------   <- zugriff auf neuralink
+
+
+hiesse grad im moment hat es wieder zusätzliche SDR's irgend in der näheren umgebung oder irgend ein
+nachbar hat so etwas eingeschaltet
+
+[1] cAPI
+
+
