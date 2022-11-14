@@ -24,5 +24,11 @@ Urs Blum lässt diese Biowaffen immer dann aktivieren, wenn der Zürich Versiche
 somit wäre auch eine wichtige frage wann man mir das verpasst hat
 => suizidgrund wenn jemand an meinem körper war
 
+dann will urs blum so allenfalls wieder die polizie mit "gefahr in verzug" aktivieren um weitere beweismittel zu zerstören oder unterdessen dass ich in der psychiatrie bin 
+
+das mit der "ableitung über die axilla" an der achsel war auch so etwas, aber tiefer unten
+
+dann soll das auch alle zuschauer und jüngere vermutlcih einschüchtern
+
 
  
