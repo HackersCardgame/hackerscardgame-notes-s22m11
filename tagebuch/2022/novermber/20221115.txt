@@ -43,7 +43,7 @@ ekelpfosten mag ich nicht weil die triebgesteuert sind, oder gestuert sind von d
 Tue Nov 15 04:06:53 PM CET 2022
 jetzt haben die scheinbar wieder angefangen meine disso funktion auf dem implantat (ICD 10 F44.x) zu adaptiieren
 
-Urs Blum verrät georg landolt (1950) dass die Ringkerntrafos welche die audio-anlagen in der migros betreiben einen 50kHZ zusatz modulation die als ragemaster dient um implantat mit spannung zu versorgen oder (amp goes to 11) sogar um diese zu übersteuern.
+Urs Blum verrät georg landolt (1950) dass die Ringkerntrafos welche die audio-anlagen in der migros betreiben einen >50kHZ zusatz modulation die als ragemaster dient um implantat mit spannung zu versorgen oder (amp goes to 11) sogar um diese zu übersteuern.
 
 Da sei allenfalls auch der > audioplaner < (NLP: GEORG LANDOLT) verdächtig wegen der ausleuchtung und der guten verteilung der lautspreher die alle einen trafo dran hatten weil das signal wie bei hochspannungsleitungen mehr volt sind als ein lautsprecher vertragen kann
 
