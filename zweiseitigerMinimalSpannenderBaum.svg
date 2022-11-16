@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.7652427"
-     inkscape:cx="412.2875"
-     inkscape:cy="524.01676"
+     inkscape:cx="587.39534"
+     inkscape:cy="624.63843"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="1920"
@@ -157,8 +157,8 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="81.150162"
-       y="191.20543"
+       x="81.679329"
+       y="147.28519"
        id="text159885-3-0"
        inkscape:export-filename="/home/marc/rect235494.png"
        inkscape:export-xdpi="192.31456"
@@ -166,8 +166,8 @@
          sodipodi:role="line"
          id="tspan159883-6-6"
          style="stroke-width:0.264583"
-         x="81.150162"
-         y="191.20543">Neutral</tspan></text>
+         x="81.679329"
+         y="147.28519">Neutral</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.60402px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13515"
@@ -518,5 +518,43 @@
          style="stroke-width:0.172829"
          x="18.887091"
          y="105.71326">Richter / Polizei</tspan></text>
+    <path
+       style="fill:#aaccff;stroke:#000000;stroke-width:0.124767px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.65327284"
+       d="m 83.319588,156.46939 17.708592,31.60669 17.70851,-31.60669 z"
+       id="path246076"
+       inkscape:export-filename="/home/marc/rect235494.png"
+       inkscape:export-xdpi="192.31456"
+       inkscape:export-ydpi="192.31456" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.31929px;line-height:0.85;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0579825"
+       x="101.08878"
+       y="190.95668"
+       id="text247306"><tspan
+         sodipodi:role="line"
+         id="tspan247304"
+         style="text-align:center;text-anchor:middle;stroke-width:0.0579825"
+         x="101.08878"
+         y="190.95668">am besten bleibt man</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.0579825"
+         x="101.08878"
+         y="192.92807"
+         id="tspan247308">neutral, aber selbst</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.0579825"
+         x="101.08878"
+         y="194.89948"
+         id="tspan247310">wenn man nichts angestellt</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.0579825"
+         x="101.08878"
+         y="196.87086"
+         id="tspan247312">hat kann die Justiz tun</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.0579825"
+         x="101.08878"
+         y="198.84227"
+         id="tspan247314">mit einem was sie wollen</tspan></text>
   </g>
 </svg>
