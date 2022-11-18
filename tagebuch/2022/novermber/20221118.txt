@@ -18,3 +18,4 @@ Handy
 
 
 Säugetiert-Trieb "nester bauen" mit schönen Vorhängen befriedigt
+=> das system baut basis-triebe zur befriedigung ein, damit der zombi nicht uz viele fragen stellt
