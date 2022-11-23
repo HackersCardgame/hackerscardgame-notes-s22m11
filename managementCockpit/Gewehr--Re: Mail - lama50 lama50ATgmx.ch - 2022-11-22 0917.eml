@@ -1,0 +1,289 @@
+Return-Path: <lama50@gmx.ch>
+Delivered-To: mail@marclandolt.ch
+Received: from mail-lb1.adm.hostpoint.ch ([10.4.2.220])
+	by popimap018.mail.hostpoint.internal with LMTP
+	id yGX+MpaFfGM5LwAA9BAvQA:P1
+	(envelope-from <lama50@gmx.ch>)
+	for <mail@marclandolt.ch>; Tue, 22 Nov 2022 09:17:26 +0100
+Received: from mxin020.mail.hostpoint.ch ([10.4.2.220])
+	by mail-lb1.adm.hostpoint.ch with LMTP
+	id yGX+MpaFfGM5LwAA9BAvQA
+	(envelope-from <lama50@gmx.ch>)
+	for <mail@marclandolt.ch>; Tue, 22 Nov 2022 09:17:26 +0100
+Received: from mout.gmx.net ([212.227.17.22])
+	by mxin020.mail.hostpoint.ch with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.95 (FreeBSD))
+	(envelope-from <lama50@gmx.ch>)
+	id 1oxOT8-00090C-NQ
+	for mail@marclandolt.ch;
+	Tue, 22 Nov 2022 09:17:26 +0100
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=gmx.ch; s=s31663417;
+	t=1669105046; bh=VU0n7iXsQ+3Yy5TdZ+PNPVme8JbpD9rSMgr+TKwKT/o=;
+	h=X-UI-Sender-Class:Date:Subject:To:References:From:In-Reply-To;
+	b=XX44f12O2jP9IukyqgIbAetsCl82pB8YE4VLnRUOtI/Ck8Yks5sqMhigzEs7fqpto
+	 Y7/d2t1ihEyUongc1rKq+7OmIx7JiqzakzJBYSNRMkgzVk6o7L5C+ilnCMelNhjYcg
+	 SPcoyECJnXsAboXb0bW8J03dFvp4sk+SUy0Q9mmczV+f/p0O4XtBCGs3BA0loiK8C7
+	 Snbt/NYfZ5CL4X9lpDE08rplnKOEE/DfMZO6TDWjnomrBshf/J1nnGNB5dPbFV2Mry
+	 McJ9YOD1LFysAeXBj6LnKHeWRMna1xK8MHTGzEs62oIF7mUMlaBQY2AKxlLXh+JQFo
+	 JNXdvhv84W/8w==
+X-UI-Sender-Class: 724b4f7f-cbec-4199-ad4e-598c01a50d3a
+Received: from [192.168.1.18] ([91.138.30.71]) by mail.gmx.net (mrgmx104
+ [212.227.17.168]) with ESMTPSA (Nemesis) id 1MnJhU-1pMaHa0GUW-00jEma; Tue, 22
+ Nov 2022 09:17:26 +0100
+Message-ID: <53fc20ae-0edb-e4f3-f593-f2c5e25fa8c8@gmx.ch>
+Date: Tue, 22 Nov 2022 09:17:28 +0100
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101
+ Thunderbird/102.5.0
+Subject: Re: Mail
+To: "Marc jr. Landolt" <mail@marclandolt.ch>
+References: <f01202d0-4b18-c9f9-fc80-655286be1b13@gmx.ch>
+ <49159558-bac7-2d84-425d-fadabd5061af@marclandolt.ch>
+ <aa3dfb1a-bd8b-7106-7aea-85afb201aa81@gmx.ch>
+ <c0de7221-1f71-32e3-0915-3f12e139aab0@marclandolt.ch>
+ <1d069a3b-b3f2-f64b-91f0-855dc1d44229@gmx.ch>
+ <e247136d-3601-5b8f-78d1-d9303f833e6f@marclandolt.ch>
+ <e9e45c46-bf2c-a854-e2fd-6b2e252ee247@gmx.ch>
+ <377d9074-72d5-c0e9-4e93-ccdc92b98fbc@marclandolt.ch>
+From: lama50 <lama50@gmx.ch>
+In-Reply-To: <377d9074-72d5-c0e9-4e93-ccdc92b98fbc@marclandolt.ch>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+X-Provags-ID: V03:K1:66qlzg6MKZQM6e7qV9jt/fQRRgwej0YfGzMbMdhXDdFM+LzkKzV
+ HFZIInPSwx8Qw+8DsbxxHZlgWHUMyfziFI+tWgxxJKfElA1OBeZZGCLK3SLwFeH+DvXaupP
+ a7YC2xFHaWoqdyIlP/B8mSfk+YG7FLsEaGHCGjdLMQad1B1u/WftCLnj/E1qgXASHNktT85
+ zMo5ARuRDRjC+cxIYoW8w==
+X-Spam-Flag: NO
+UI-OutboundReport: notjunk:1;M01:P0:NWefO6eBu54=;BjI2OnY4Rj9sqcafe7Q707Y2mCU
+ gPdpjPX1ZAS5jCUjbO5jeyRKGp4SHSTWXsB7g8MsPZVMUOba3qKv+G6k3N3ss80DcyJ1W358N
+ M9qd4M726E47HzPJmK+I5L+Fybj1xCBqN881gk6EtJOKWCcnsOO/dVI0gDK3Ns62tD6v6Be4W
+ aQ+xzk7rp7LqMBiBzwXomOQBN8MYAE19Z8cGxAZ/d5sv1NJS7uUe01BxvEJKnzIChovJ9gGKA
+ yHJquHtn5v1CM8iWh+36U68jpf0XkF5lUHN0X9E73F7GCBen6OSwozjG957n6ujim2sy+pHof
+ 2PdTadCwdMhQJYUqhys3WJBe7kDRvn4INN7fADmhMbcx1UceGr4IuyYvfKMRZSCPZJLWgLZq1
+ r1XXvWcPgbVsFnxrb8RVWfEmDYRGvSqCxJudaesftQ7MsKus/0pHfPC69mK/PyBMMnUbeaxBp
+ n1Gp1SRbVdNkyzFj0/a0npTNQV0nZela9Let+T3hA00mCgpctmGrIuJ1mj17hH36fWrkDY1+C
+ IMHCyrr7QukfVVYL05OxrNHylYe8/2cQmqZFA9XJT2JJ+bPSSR9Lk+6S6ZpwEpZrVgtZN2TBV
+ Zmd6vBf2SwBxmbE+cxesEqCVBXg/aJqSqnYFJ4sv12Y+sLp63X3o3GfND94VfTPQkIxNFEQv+
+ t9WqR5h/DJg6KIo8qr16FOzr7qtGWXU++UBALijULQ4XdA5HOfW/dIXjGsKc2Q+tuNL7mK1o9
+ j9h/TSc7r95MTU3sKGBDAk3MbBeFSFYtAP6ry3/YO3fPm8oxz1xl9RZ3LC/TmvGdq2OKBY7ly
+ H2b14Vy6MPn6Mj/Nfext7ZfTreJQ/0WN6vLfobPTtCfUG23bQcB5sjWNTrsQZ+188I7KSQKew
+ a8cPkAFS8FjCVmcnNMufDiKitJF4/GPEgZkIBQVdrBTVXkI0Vc/ZCzE+YalUR1vv+HtUFRQs0
+ n1tD5NaFYyYimGxlAiQz20U8W+8=
+X-Whitelisted-By: white.mail.abusix.dnslist
+X-Vs-State: LEGIT
+X-Hostpoint-Spambox: NO
+
+Hallo Marc,
+
+ich sende jetzt doch noch ein Mail, mit der Bitte mich aus dem
+Mailverteiler wieder zu streichen.
+
+
+Eine Frage soll nicht unbeantwortet bleiben:
+
+Dein Gewehr habe ich damals auf dem Kantonspolizeiposten an der
+Laurenzenvorstadt,
+
+zu Handen der Armee, pers=C3=B6nlich abgegeben. Einen Beleg daf=C3=BCr hab=
+e ich
+nicht erhalten.
+
+Mehr kann ich leider nicht sagen.
+
+
+Gruss Papa
+
+
+
+Am 21.11.2022 um 21:26 schrieb Marc jr. Landolt:
+>
+> Dennoch h=C3=A4tte ich gerne den Beleg, dass Du mein Gewehr wirklich
+> abgegeben hast
+>
+>
+> On 11/21/22 18:59, lama50 wrote:
+>> Hallo Marc,
+>>
+>> zur Information: Laut Mietvertrag kann die Miete nur per 31.M=C3=A4rz.,
+>> 30.Juni und 30. September angepasst werden
+>>
+>> und dies nach vorg=C3=A4ngiger, 3 monatiger schriftlicher Ank=C3=BCndig=
+ung.
+>>
+>> Es hat nichts mit gerecht zu tun.
+>>
+>> Eigentlich war die Absicht mit Dir abzumachen was f=C3=BCr Dich finanzi=
+ell
+>> (ab M=C3=A4rz 2023) m=C3=B6glich ist.
+>>
+>> Ich verzichte auf weiteren Mailverkehr, das bringt nichts.
+>>
+>>
+>> Gruss Papa
+>>
+>>
+>>
+>> Am 21.11.2022 um 17:05 schrieb Marc jr. Landolt:
+>>> Hallo Papa
+>>>
+>>> Nein es ist gerecht wenn ich mehr bezahle, Dominik hat 1200.-- bezahlt
+>>> und wenn ich bisschen mehr als 5 Jahre sp=C3=A4ter 1300.-- ist das nur
+>>> gerecht und Teuerung.
+>>>
+>>> Ausserdem immer wenn Du ein Mail schickst schlage ich mir "selber" die
+>>> F=C3=A4uste an den Kopf. Lass das bitte. Ich kann nichts daf=C3=BCr we=
+nn gegen
+>>> Dich ermittelt wird und die dann einfach die Kinder des mutmasslichen
+>>> T=C3=A4ters aushorchen.
+>>>
+>>> Und h=C3=B6rt bitte damit auf zu versuchen meine Psyche zu brechen.
+>>>
+>>> Gruss
+>>> Marc jr.
+>>>
+>>>
+>>> On 11/21/22 16:37, lama50 wrote:
+>>>> Hallo Marc,
+>>>>
+>>>> es tut mir Leid, ich habe eine Fehl=C3=BCberlegung gemacht.
+>>>>
+>>>> Es gibt keinen Grund f=C3=BCr eine Mieterh=C3=B6hung.
+>>>>
+>>>> Darum bleibt es mit der Miete so wie es ist.
+>>>>
+>>>>
+>>>> Bitte bleibe bei den 1050.00 pro Monat.
+>>>>
+>>>> Falls es unklar ist, k=C3=B6nnen wir uns treffen und es kl=C3=A4ren.
+>>>>
+>>>>
+>>>> Gruss Papa.
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+>>>> Am 21.11.2022 um 12:20 schrieb Marc jr. Landolt:
+>>>>> Hallo Papa
+>>>>>
+>>>>> Ich bin seit 44 Jahren Eure biologisches Kind. Eigentlich w=C3=BCsst=
+et
+>>>>> ihr,
+>>>>> dass f=C3=BCr mich als Autist grosse System-=C3=84nderung in Kurzer =
+Zeit
+>>>>> schlecht ist. Besser w=C3=A4re gewesen zu sagen Mieterh=C3=B6hung en=
+de Jahr
+>>>>> +100.-- und dann wenn die Umbauten verrechnet wurden nochmals +150.-=
+-
+>>>>>
+>>>>> Ihr wisst das eigentlich mit mit grossen =C3=A4nderungen in Kurzer Z=
+eit.
+>>>>> Und zus=C3=A4tzlich zur Hiobsbotschaft dass es 250.-- mehr kostet un=
+d
+>>>>> weitere diverse Einflussfaktoren auf mich einwirken hat Margrit das
+>>>>> Gef=C3=BChl sie m=C3=BCsse aus dem Hintergrund noch mit "Ich soll mi=
+ch nicht
+>>>>> wie
+>>>>> ein Kind benehmen" und meine Sexuelle Integrit=C3=A4t einwirken. Get=
+arnter
+>>>>> aber offen ausgelebter Sadismus / Narzissmus gegen mich wo ich nicht
+>>>>> verstehe weshalb?
+>>>>>
+>>>>> Benehmt Ihr Euch mal erwachsen, macht Ihr mal Klassenbester in einer
+>>>>> Technikerschule oder geht Ihr mal ein paar Jahre Informatik studiere=
+n
+>>>>> als Unterschicht Kind und Aussenseiter.
+>>>>>
+>>>>> =C3=9CBERNEHMT IHR MAL ERWACHSEN VERANTWORTUNG F=C3=9CR DIE TECHNOLO=
+GIE DIE IHR
+>>>>> VERWENDET ODER MISSBRAUCHT.
+>>>>>
+>>>>> Ab sofort werde ich 1300.-- einbezahlen und weil einer der Faktoren
+>>>>> die auf mich einwirken jetzt dieses Jahr die Steuerrechnung von 3
+>>>>> Jahren auf einmal m=C3=B6chte gehe ich halt fast drauf.
+>>>>>
+>>>>> Dann ist auch in 4 Monaten der Umzug den Ihr finanziert habt zur=C3=
+=BCck
+>>>>> bezaht. Wenn man ein Geschenk macht, dann macht man das eigentlich
+>>>>> nicht um den Empf=C3=A4nger damit danach zu erpressen.
+>>>>>
+>>>>> Gruss
+>>>>> Marc jr.
+>>>>>
+>>>>>
+>>>>>
+>>>>> On 11/21/22 10:11, lama50 wrote:
+>>>>>> Hallo Marc,
+>>>>>>
+>>>>>> es bleibt wie ich geschrieben habe.
+>>>>>>
+>>>>>> Ich werde auf Dich zukommen, wenn ich alles abgekl=C3=A4rt habe.
+>>>>>>
+>>>>>> PS. Die Unterlagen sind nur f=C3=BCr die Neuenburgerstrasse 5/6
+>>>>>>
+>>>>>>
+>>>>>> Gruss Papa
+>>>>>>
+>>>>>>
+>>>>>> Am 20.11.2022 um 14:43 schrieb Marc jr. Landolt:
+>>>>>>> Hallo Papa
+>>>>>>>
+>>>>>>> Die Unterlagen w=C3=A4ren wirklich toll, dann k=C3=B6nnte ich mal =
+mit
+>>>>>>> Scheuni in
+>>>>>>> der Neuenburger 4 Schauen weshalb er nur 700.-- Miete bezahlt,
+>>>>>>> ob die
+>>>>>>> noch irgend einen Trick haben mit der Hypotheke und weshalb gem=C3=
+=A4ss
+>>>>>>> meinen Informationen Scheuni keine Mieterh=C3=B6hung hat.
+>>>>>>>
+>>>>>>> Gruss
+>>>>>>> Marc jr.
+>>>>>>>
+>>>>>>> On 11/18/22 16:56, lama50 wrote:
+>>>>>>>> Hallo Marc,
+>>>>>>>>
+>>>>>>>> ich habe das Mail erhalten.
+>>>>>>>>
+>>>>>>>> Es =C3=A4ndert sich f=C3=BCr Dich bis n=C3=A4chsten Fr=C3=BChling=
+ nichts. Die Miete
+>>>>>>>> bleibt
+>>>>>>>> so wie sie ist.
+>>>>>>>>
+>>>>>>>> Ich muss zuerst noch abkl=C3=A4ren welcher Teil zu Lasten des
+>>>>>>>> Eigent=C3=BCmers der
+>>>>>>>> Wohnung
+>>>>>>>>
+>>>>>>>> und was der Mieter beizutragen hat.
+>>>>>>>>
+>>>>>>>> Darum maile Ich die Unterlagen nicht.
+>>>>>>>>
+>>>>>>>> Ich melde mich im neuen Jahr wieder.
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> Gruss Papa
+>>>>>>>>
+>>>>>
+>>>>> Am 15.11.2022 um 17:13 schrieb lama50:
+>>>>> > Hallo Marc,
+>>>>> >
+>>>>> > wie wir vereinbart, schicke ich Dir ein Mail und bitte Dich mich
+>>>>> > gelegentlich anzurufen.
+>>>>> >
+>>>>> > Ich hoffe, dass es Dir gut geht und warte auf einen Anruf.
+>>>>> >
+>>>>> >
+>>>>> > Liebe Gr=C3=BCsse
+>>>>> >
+>>>>> > Papa
+>>>>> >
+>>>>> >
+>>>>>
+>>>>> Hallo Marc,
+>>>>>
+>>>>> ich vesichere Dir , dass ich der Polizei nicht angerufen habe, um
+>>>>> Dich
+>>>>> in die Psychratie zu sperren.
+>>>>>
+>>>>>
+>>>>> Gruss Papa
