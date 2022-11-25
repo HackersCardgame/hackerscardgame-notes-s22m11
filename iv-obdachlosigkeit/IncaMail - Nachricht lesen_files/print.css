@@ -1,0 +1,102 @@
+
+* {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+}
+
+a,
+a:visited {
+    text-decoration: underline;
+}
+
+a[href^="javascript:"]:after,
+a[href^="#"]:after {
+    content: "";
+}
+
+pre,
+blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+}
+
+thead {
+    display: table-header-group;
+}
+
+tr,
+img {
+    page-break-inside: avoid;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+.acc-sender img,
+.sender-banner img {
+    display: block;
+    float: none;
+    clear: both;
+}
+
+@page {
+    margin: 0.5cm;
+}
+
+p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+}
+
+h2, h3 {
+    page-break-after: avoid;
+}
+
+.container-main,
+.container-main-bg {
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.col1, .col2, .col3 {
+    float: none;
+    width: 100%;
+}
+
+.acc-sender {
+    padding-left: 10px;
+    padding-bottom: 1em;
+}
+
+.acc-sender-content {
+    display: block;
+}
+
+.letter {
+    margin: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.letter .sender {
+    padding-left: 0;
+}
+
+.letter .recipient {
+    margin-top: 0;
+    padding: 0;
+}
+
+.nav,
+.system-message,
+.mail-read-footer,
+.footer,
+.login-bg,
+.letter .btn-open {
+    display: none;
+}

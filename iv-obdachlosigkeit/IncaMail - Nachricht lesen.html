@@ -1,0 +1,512 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html>
+<html xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de"><head id="j_idt2"><script type="text/javascript" src="IncaMail%20-%20Nachricht%20lesen_files/jquery.js.es"></script><script type="text/javascript" src="IncaMail%20-%20Nachricht%20lesen_files/jquery-plugins.js.es"></script><script type="text/javascript" src="IncaMail%20-%20Nachricht%20lesen_files/core.js.es"></script><script type="text/javascript" src="IncaMail%20-%20Nachricht%20lesen_files/components.js.es"></script><link type="text/css" rel="stylesheet" href="IncaMail%20-%20Nachricht%20lesen_files/components.css.css"><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='de_CH';}</script>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>IncaMail - Nachricht lesen
+    </title>
+
+    <meta name="description" content="">
+    <meta name="author" content="Swiss Post">
+    <meta name="keywords" content="incamail,swisspost">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+    
+    <link rel="stylesheet" type="text/css" media="all" href="IncaMail%20-%20Nachricht%20lesen_files/combined.min.css">
+
+    
+    <link rel="stylesheet" type="text/css" media="print" href="IncaMail%20-%20Nachricht%20lesen_files/print.css">
+
+    <link rel="icon" href="https://www.incamail.com/resources/images/favicon.ico" type="image/x-icon"></head><body class="script-enabled ">
+
+        
+        <script type="text/javascript">
+            document.body.className = document.body.className.replace("script-disabled", "script-enabled");
+        </script>
+
+        <div id="wrapper" class="wrapper">
+            
+            <div id="header" class="header" role="banner">
+<form id="j_idt10" name="j_idt10" method="post" action="/read-email.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt10" value="j_idt10">
+
+        <h1 class="hidden">Navigation und Service Bereich</h1>
+        <div role="navigation">
+                <ul class="skiplinks">
+                    <li>
+<script type="text/javascript" src="IncaMail%20-%20Nachricht%20lesen_files/jsf.js.es"></script>
+<a href="#" accesskey="0" title="Gehen Sie direkt zur Startseite" onclick="mojarra.jsfcljs(document.getElementById('j_idt10'),{'j_idt10:j_idt14':'j_idt10:j_idt14'},'');return false" class="skip">
+                            Startseite
+                        </a>
+                    </li>
+                        <li>
+                            <a class="skip" accesskey="1" href="#navigation" title="Direkt zur Navigation springen">
+                                Navigation
+                            </a>
+                        </li>
+                    <li>
+                        <a class="skip" accesskey="2" href="#content" title="Direkt zum Inhalt springen">
+                            Inhalt
+                        </a>
+                    </li>
+                    <li><a href="#" accesskey="3" title="Gehen Sie direkt zu Konto erstellen" onclick="mojarra.jsfcljs(document.getElementById('j_idt10'),{'j_idt10:j_idt19':'j_idt10:j_idt19'},'');return false" class="skip">
+                            Konto erstellen
+                        </a>
+                    </li>
+                    <li><a href="#" accesskey="4" title="Direkt zur Sitemap springen" onclick="mojarra.jsfcljs(document.getElementById('j_idt10'),{'j_idt10:j_idt22':'j_idt10:j_idt22'},'');return false" class="skip">
+                            Sitemap
+                        </a>
+                    </li>
+                        <li><a href="#" accesskey="5" title="Abmelden" onclick="mojarra.jsfcljs(document.getElementById('j_idt10'),{'j_idt10:j_idt26':'j_idt10:j_idt26'},'');return false" class="skip">
+                                Abmelden
+                            </a>
+                        </li>
+                    
+                </ul>
+        </div>
+
+        <div class="container-main col4 clearfix">
+            <div class="service-provider" style="visibility: visible"><img src="IncaMail%20-%20Nachricht%20lesen_files/provider-logo.jpg.jpeg" alt="Swiss Post">
+            </div>
+            <div class="logo" style="visibility: visible"><img src="IncaMail%20-%20Nachricht%20lesen_files/application-name.png.png" alt="IncaMail">
+            </div>
+        </div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-5460022648658957559:-1840188994422886322" autocomplete="off">
+</form>
+            </div>
+
+            <a class="anchor" name="navigation" tabindex="-1"></a>
+<form id="theForm" name="theForm" method="post" action="/read-email.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="theForm" value="theForm">
+
+            <div class="nav">
+                <div class="inner">
+                    <div class="container-main col4 clearfix">
+                        
+                        <h2 id="label-meta-nav" class="hidden">Meta Navigation</h2><div class="meta clearfix">
+                            <ul>
+                                <li class="hide-mobile">
+                                </li>
+                                <li class="hide-mobile"><a href="#" onclick="mojarra.jsfcljs(document.getElementById('theForm'),{'theForm:j_idt42':'theForm:j_idt42'},'');return false" id="settingsAction">Einstellungen</a>
+                                </li>
+                                <li class="hide-mobile"><a href="#" onclick="jsf.util.chain(this,event,'$(\'#loader\').fadeIn();$(\'#loader-box\').focus();','mojarra.jsfcljs(document.getElementById(\'theForm\'),{\'theForm:j_idt44\':\'theForm:j_idt44\'},\'\')');return false" id="logbookLink">Logbuch</a>
+                                </li>
+                                <li class="hide-mobile"><a href="#" onclick="mojarra.jsfcljs(document.getElementById('theForm'),{'theForm:j_idt46':'theForm:j_idt46'},'');return false" id="logoutAction">Abmelden</a>
+                                </li>
+                                <li class="show-mobile link-more">
+                                    <a href="#">
+                                        <span class="icon-more">Weiter</span>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                        </li>
+                                        <li><a href="https://www.incamail.com/settings.xhtml">
+                                                Einstellungen
+                                            </a>
+                                        </li>
+                                        <li><a href="#" onclick="mojarra.jsfcljs(document.getElementById('theForm'),{'theForm:j_idt53':'theForm:j_idt53'},'');return false" id="logbookLink">Logbuch</a>
+                                        </li>
+                                        <li><a href="#" onclick="mojarra.jsfcljs(document.getElementById('theForm'),{'theForm:j_idt55':'theForm:j_idt55'},'');return false" id="logoutAction">Abmelden</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul></div>
+                        
+                        <h2 id="label-service-nav" class="hidden">Service navigation</h2>
+                        <div class="mainnav clearfix" role="navigation" aria-labelledby="label-service-nav">
+                            <ul>
+                                <li><a href="#" onclick="mojarra.jsfcljs(document.getElementById('theForm'),{'theForm:j_idt58':'theForm:j_idt58'},'');return false" class="" id="writeLink">
+                                        <span class="icon-write">Schreiben</span></a>
+                                </li>
+                                <li><a href="#" onclick="mojarra.jsfcljs(document.getElementById('theForm'),{'theForm:j_idt61':'theForm:j_idt61'},'');return false" class="active" id="readLink">
+                                        <span class="icon-read">Lesen</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="-5460022648658957559:-1840188994422886322" autocomplete="off">
+</form>
+
+
+
+            <div class="content">
+                <a class="anchor" name="content" tabindex="-1"></a>
+
+
+<form id="form-read-mail" name="form-read-mail" method="post" action="/read-email.xhtml" enctype="multipart/form-data">
+<input type="hidden" name="form-read-mail" value="form-read-mail">
+<span id="panelGroupMessages"></span><script type="text/javascript">
+                        $(document).ready(function (e) {
+                            otklInvalidationTrigger();
+                        });
+                    </script><script id="j_idt127" type="text/javascript">otklInvalidationTrigger = function() {PrimeFaces.ab({s:"j_idt127",f:"form-read-mail",pa:arguments[0]});}</script>
+
+                    
+                    <div class="container-main col4">
+                        <h1><span id="readSubject">756.1445.3415.21 (Secured by IncaMail)</span>
+                        </h1>
+                        <span id="readSentDate" class="date">Gesendet:
+                            25.11.22 10:17 Vertraulich</span>
+                    </div>
+
+                    <div class="container-main-bg">
+                        
+                        <div class="container sender-box clearfix"><div id="j_idt130" class="ui-outputpanel ui-widget acc-sender col4"><a id="toggleDetailsBtn" name="toggleDetailsBtn" href="#" class="acc-open ir"></a>
+
+                                <p><span id="readFrom" class="label-auto">Von: IV-Stelle@sva-ag.ch ★★☆</span>
+                                </p><div id="details" class="ui-outputpanel ui-widget acc-sender-content">
+                                    <p><span id="additionnalAddressLine1" class="block">SVA Aargau</span><span id="addressLine" class="block">Kyburgerstrasse 15</span><span id="cityLine" class="block">5001 Aarau</span><span id="countryLine" class="block">Schweiz</span>
+                                    </p></div></div>
+
+                            
+                            <div class="col4 acc-sender"><div id="detailsTo" class="ui-outputpanel ui-widget acc-sender-content">An: <span id="to_mail@marclandolt.ch">mail@marclandolt.ch</span></div>
+                            </div>
+
+                            
+                            <div class="col4 acc-sender"><div id="msgId" class="ui-outputpanel ui-widget acc-sender-content"><span class="mail-read-msg-id" title="Nachrichtennummer">MsgID: 31616af1-fa59-45f5-b11b-8cf114eda91c</span></div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="container mail-body col4 ">
+                            
+                            <iframe scrolling="auto" style=" width: 100%; height: 600px; overflow: hidden" srcdoc="&lt;html xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; xmlns:m=&quot;http://schemas.microsoft.com/office/2004/12/omml&quot; xmlns=&quot;http://www.w3.org/TR/REC-html40&quot;&gt;&lt;head&gt; 
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;&gt; 
+  &lt;meta name=&quot;Generator&quot; content=&quot;Microsoft Word 15 (filtered medium)&quot;&gt; 
+  &lt;style&gt;&lt;!--
+/* Font Definitions */
+@font-face
+	{font-family:&quot;Cambria Math&quot;;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:&quot;Calibri&quot;,sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.E-MailFormatvorlage17
+	{mso-style-type:personal-compose;
+	font-family:&quot;Calibri&quot;,sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:&quot;Calibri&quot;,sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--&gt;&lt;/style&gt; 
+  &lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;o:shapedefaults v:ext=&quot;edit&quot; spidmax=&quot;1026&quot; /&gt;
+&lt;/xml&gt;&lt;![endif]--&gt; 
+  &lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;o:shapelayout v:ext=&quot;edit&quot;&gt;
+&lt;o:idmap v:ext=&quot;edit&quot; data=&quot;1&quot; /&gt;
+&lt;/o:shapelayout&gt;&lt;/xml&gt;&lt;![endif]--&gt; 
+ &lt;/head&gt; 
+ &lt;body lang=&quot;DE-CH&quot; link=&quot;#0563C1&quot; vlink=&quot;#954F72&quot; style=&quot;margin: 4px; padding: 0; font:10pt Arial,Verdana;&quot;&gt; 
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;&gt; 
+  &lt;meta name=&quot;Generator&quot; content=&quot;Microsoft Word 15 (filtered medium)&quot;&gt; 
+  &lt;style&gt;&lt;!--
+/* Font Definitions */
+@font-face
+	{font-family:&quot;Cambria Math&quot;;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:&quot;Calibri&quot;,sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.E-MailFormatvorlage17
+	{mso-style-type:personal-compose;
+	font-family:&quot;Calibri&quot;,sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:&quot;Calibri&quot;,sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--&gt;&lt;/style&gt; 
+  &lt;div class=&quot;WordSection1&quot;&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt;Guten Tag Herr Landolt &lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt; &amp;nbsp; &lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt;Wir beziehen uns auf Ihre E-Mail vom 16.11.2022 sowie Ihren Anruf vom 25.11.2022. Die IV kann Ihnen bezüglich einem Zeugenschutzprogramm nicht behilflich sein. &lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt;Der Anspruch auf die IV-Rente bleibt bestehen, auch wenn Sie ohne Wohnadresse wären. Ebenfalls ist es möglich, nach Deutschland auszuwandern. Die IV-Rente würde Ihnen weiterhin ausbezahlt werden. Falls Sie nach Deutschland ziehen, bitten wir Sie, uns die neue Adresse mitzuteilen. &lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt;Besten Dank für Ihre Kenntnisnahme. &lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt; &amp;nbsp; &lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot;color:#1F497D;mso-fareast-language:DE-CH&quot;&gt;SVA Aargau &lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;color:#1F497D;mso-fareast-language:DE-CH&quot;&gt; &lt;/span&gt;&lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot;color:#1F497D;mso-fareast-language:DE-CH&quot;&gt;Kundenzentrum &lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;color:#1F497D;mso-fareast-language:DE-CH&quot;&gt; &lt;/span&gt;&lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;color:#1F497D;mso-fareast-language:DE-CH&quot;&gt;Bahnhofplatz 3 c &lt;/span&gt;&lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;color:#1F497D;mso-fareast-language:DE-CH&quot;&gt;5001 Aarau &lt;/span&gt;&lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;color:#1F497D;mso-fareast-language:DE-CH&quot;&gt;Telefon&amp;nbsp;+41 62 836 81 81&lt;br&gt; &lt;a href=&quot;http://www.sva-ag.ch/&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color:blue&quot;&gt;www.sva-ag.ch&lt;/span&gt;&lt;/a&gt;&lt;br&gt; &lt;br&gt; &lt;b&gt;Erreichbar von Montag bis Freitag&lt;/b&gt;.&lt;/span&gt;&lt;span style=&quot;mso-fareast-language:DE-CH&quot;&gt; &lt;/span&gt;&lt;/p&gt; 
+   &lt;p class=&quot;MsoNormal&quot;&gt; &amp;nbsp; &lt;/p&gt; 
+  &lt;/div&gt;  
+ 
+&lt;/body&gt;&lt;/html&gt;" frameborder="0"></iframe>
+                        </div>
+
+                        
+                        <div class="container col4">
+                            <div class="form-row-footer mail-read-footer clearfix">
+                                <ul>
+                                    <li class="noline"><a id="reply" href="#" title="Kostenlos antworten" onclick="mojarra.jsfcljs(document.getElementById('form-read-mail'),{'reply':'reply'},'');return false" class="btn btn-reply">
+                                            <span>Kostenlos antworten</span></a>
+                                    </li>
+                                    <li><a id="replyAll" href="#" title="Allen antworten" onclick="mojarra.jsfcljs(document.getElementById('form-read-mail'),{'replyAll':'replyAll'},'');return false" class="btn-reply-all">
+                                            <span class="ir">Allen antworten</span></a></li>
+                                    <li><a id="forward" href="#" title="Weiterleiten" onclick="mojarra.jsfcljs(document.getElementById('form-read-mail'),{'forward':'forward'},'');return false" class="btn-forward">
+                                            <span class="ir">Weiterleiten</span></a>
+                                    </li>
+                                    <li class="noline"><a id="print" href="#" title="Drucken" onclick="jsf.util.chain(this,event,'window.print(); return false;','mojarra.jsfcljs(document.getElementById(\'form-read-mail\'),{\'print\':\'print\'},\'\')');return false" class="btn-print">
+                                            <span class="ir">Drucken</span></a>
+                                    </li>
+                                </ul>
+
+                                <div class="mail-save"><a id="forward-unencrypted" href="#" title="Als normale E-Mail an mich weiterleiten" onclick="mojarra.jsfcljs(document.getElementById('form-read-mail'),{'forward-unencrypted':'forward-unencrypted'},'');return false" class="btn-forward-unencrypted">
+                                        <span class="ir">Als normale E-Mail an mich weiterleiten</span></a>
+
+                                    <fieldset>
+                                        <label id="saveDesc" class="hidden" for="save">Wählen Sie einen Dateityp aus der Liste und Ihre Nachricht wird automatisch auf Ihr Gerät gespeichert werden.</label><select id="save" name="save" class="select-save" size="1" onchange="PrimeFaces.ab({s:this,e:&quot;change&quot;,p:&quot;save&quot;,u:&quot;save fileLink panelGroupMessages&quot;,onco:function(xhr,status,args){reloadSelectmenu();downloadFile();$('#save').val('NO_SELECTION');;}});" aria-describedby="saveDesc" style="display: none;" aria-disabled="false">	<option value="NO_SELECTION" selected="selected">Speichern als...</option>
+	<option value="SAVE_AS_PDF" id="saveAs1">Speichern als PDF</option>
+	<option value="SAVE_AS_ZIP" id="saveAs2">Speichern als ZIP</option>
+	<option value="SAVE_AS_EML" id="saveAs3">Speichern als EML</option>
+</select><span><a class="ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-popup" id="save-button" role="button" href="#nogo" tabindex="0" aria-haspopup="true" aria-owns="save-menu" style="width: 100%;" aria-disabled="false"><span class="ui-selectmenu-status"></span><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-2-n-s"></span></a></span><a id="fileLink" name="fileLink" href="https://www.incamail.com/downloadMessage.xhtml?fileType=NO_SELECTION" style="display:none;" tabindex="-1">
+                                            Ausgewählte Datei herunterladen
+                                            </a>
+                                    </fieldset>
+
+                                    <div id="saveButton" class="btn-save"><span class="ir">Speichern</span></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:3" value="-5460022648658957559:-1840188994422886322" autocomplete="off">
+</form>
+
+                <div id="loader" class="message-overlay">
+                    <div id="loader-box" class="container-main-bg system-message" tabindex="0">
+                        <div class="container col4">
+                            <div class="inner">
+                                <h2 class="hidden">Nachricht schreiben</h2>
+                                <span class="icon-alert"><img src="IncaMail%20-%20Nachricht%20lesen_files/spinner-info.gif.gif" alt="Laden..."></span>
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td>Laden...</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="clearfooter"></div>
+
+        </div>
+
+        <div id="footer" class="footer" style="margin-top: -59px">
+<form id="formFooter" name="formFooter" method="post" action="/read-email.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formFooter" value="formFooter">
+
+
+        <div class="container-main" style="visibility: visible">
+            <h2 class="hidden">Footer links</h2>
+
+            <div class="container-flex">
+                <div class="links">
+                    <ul>
+                        <li><a id="formFooter:contact" name="formFooter:contact" href="https://www.post.ch/incamail-contact">Kontakt</a>
+                        </li>
+                        <li><a id="formFooter:siteMap" href="#" onclick="mojarra.jsfcljs(document.getElementById('formFooter'),{'formFooter:siteMap':'formFooter:siteMap'},'');return false">Sitemap</a>
+                        </li>
+                        <li><a id="formFooter:contactHelp" name="formFooter:contactHelp" href="https://www.post.ch/incamail-support">Hilfe</a>
+                        </li>
+                        <li><a id="formFooter:contactGtc" name="formFooter:contactGtc" href="https://post.ch/incamail-agb">AGB</a>
+                        </li>
+                        <li><a id="formFooter:privacyPolicy" name="formFooter:privacyPolicy" href="https://www.post.ch/de/pages/footer/datenschutz-und-rechtliches" target="_blank">Datenschutz</a>
+                        </li>
+                        <li><a id="formFooter:contactImprint" name="formFooter:contactImprint" href="https://www.incamail.com/impressum.xhtml">Impressum</a>
+                        </li>
+                    </ul>
+
+                    <div class="language-links">
+                    </div>
+                </div><a href="https://www.swissmadesoftware.org/" target="_blank" class="swissmadesoftware"><img src="IncaMail%20-%20Nachricht%20lesen_files/swiss-made-software.png.png" alt="Swiss made software"></a>
+                <div class="copyright">© 2022 Swiss Post
+                </div>
+            </div>
+        </div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:4" value="-5460022648658957559:-1840188994422886322" autocomplete="off">
+</form>
+        </div><script type="text/javascript" src="IncaMail%20-%20Nachricht%20lesen_files/combined.min.js.es"></script><script type="text/javascript">
+        var strength = ['Zu schwach',
+            'Genügend',
+            'Sehr gut'];
+    </script>
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div id="dialogSubscription" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container dialog-popup dialog-page" style="width: auto; height: auto;" role="dialog" aria-labelledby="dialogSubscription_title" aria-hidden="true"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="dialogSubscription_title" class="ui-dialog-title">Premium kaufen</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">
+<form id="formSubscriptionInfo" name="formSubscriptionInfo" method="post" action="/read-email.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formSubscriptionInfo" value="formSubscriptionInfo">
+
+        
+        <div class="container-main-bg">
+
+            <div class="container col4 premium-info">
+                <fieldset>
+                    <div class="form-row form-row-section clearfix">
+                        <ul class="premium-table">
+                            <li>
+                                <ul class="premium-table-header">
+                                    <li></li>
+                                    <li><h3>Basic</h3></li>
+                                    <li class="premium-cell"><h3>Premium</h3></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                            <li><span>Vertrauliche und persönliche Nachrichten</span></li>
+                                    <li><span>10 kostenlos/Monat</span></li>
+                                    <li class="premium-cell">
+                                        <div class="tick"></div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><span>Eingeschriebene Nachrichten</span></li>
+                                    <li>
+                                        <div class="cross"></div>
+                                    </li>
+                                    <li class="premium-cell">
+                                        <div class="tick"></div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><span>Formatierung von Nachrichten (HTML)</span></li>
+                                    <li>
+                                        <div class="cross"></div>
+                                    </li>
+                                    <li class="premium-cell">
+                                        <div class="tick"></div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li><span>Virtueller Briefkasten</span></li>
+                                    <li>
+                                        <div class="cross"></div>
+                                    </li>
+                                    <li class="premium-cell">
+                                        <div class="tick"></div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="form-row clearfix">
+                        <ul class="premium-button-list">
+                            <li class="main-title">
+                                <h3>Wählen Sie Ihr Premium-Produkt</h3>
+                            </li>
+                                <li class="product recommended">
+                                    <ul><div id="productRepeat:0:j_idt70" class="ui-outputpanel ui-widget">
+                                            <li><span>Wir empfehlen</span></li></div>
+                                        <li class="name"><h3>Premium 12M</h3></li>
+                                        <li class="duration">
+                                            <h3>365 Tage</h3>
+                                        </li>
+                                        <li class="price-container">
+                                            <span>29.00 CHF</span>
+                                        </li>
+                                        <li class="button-container"><input id="productRepeat:0:buy" type="submit" name="productRepeat:0:buy" value="Jetzt kaufen" class="btn" onclick="mojarra.jsfcljs(document.getElementById('formSubscriptionInfo'),{'productRepeat:0:buy':'productRepeat:0:buy','productId':'6f334dc4-aa9a-405c-bf7f-f7fc16660f04','backLink':'/read-email.xhtml'},'');return false">
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </li>
+                                <li class="product">
+                                    <ul>
+                                        <li class="name"><h3>Premium 1M</h3></li>
+                                        <li class="duration">
+                                            <h3>30 Tage</h3>
+                                        </li>
+                                        <li class="price-container">
+                                            <span>5.00 CHF</span>
+                                        </li>
+                                        <li class="button-container"><input id="productRepeat:1:buy" type="submit" name="productRepeat:1:buy" value="Jetzt kaufen" class="btn" onclick="mojarra.jsfcljs(document.getElementById('formSubscriptionInfo'),{'productRepeat:1:buy':'productRepeat:1:buy','productId':'df50dcc7-b726-4ff6-a30e-f0951c266462','backLink':'/read-email.xhtml'},'');return false">
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </li>
+                                <li class="product">
+                                    <ul>
+                                        <li class="name"><h3>Premium 3M</h3></li>
+                                        <li class="duration">
+                                            <h3>90 Tage</h3>
+                                        </li>
+                                        <li class="price-container">
+                                            <span>9.00 CHF</span>
+                                        </li>
+                                        <li class="button-container"><input id="productRepeat:2:buy" type="submit" name="productRepeat:2:buy" value="Jetzt kaufen" class="btn" onclick="mojarra.jsfcljs(document.getElementById('formSubscriptionInfo'),{'productRepeat:2:buy':'productRepeat:2:buy','productId':'f76e54cd-8273-48ba-a712-47430d9704bd','backLink':'/read-email.xhtml'},'');return false">
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </li>
+                        </ul>
+                    </div>
+
+                    <div class="form-row clearfix">
+                        <p class="premium-conditions">
+                            Konditionen:
+                            <br>- Faire-Nutzung: max. 50 pro Tag
+                            <br>- Keine automatische Verlängerung
+                            <br>- Nur Online-Zahlung (Kreditkarten und PostFinance)
+                        </p>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="form-row form-row-footer ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><button id="cancelAction" name="cancelAction" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn-light" onclick="PrimeFaces.ab({s:&quot;cancelAction&quot;,onco:function(xhr,status,args){PF('dlgSubscription').hide(); return false;;}});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Weiter mit Basic</span></button><button id="confirmAction" name="confirmAction" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn" onclick="PrimeFaces.addSubmitParam('formSubscriptionInfo',{'productId':'6f334dc4-aa9a-405c-bf7f-f7fc16660f04','backLink':'/read-email.xhtml'});PrimeFaces.onPost();" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Empfehlung kaufen</span></button>
+        </div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:2" value="-5460022648658957559:-1840188994422886322" autocomplete="off">
+</form></div></div><div class="ui-dialog-docking-zone"></div><div class="ui-selectmenu-menu" style="z-index: 11; top: 1017px; left: 1229px;"><ul class="ui-widget ui-widget-content ui-selectmenu-menu-popup ui-corner-all" aria-hidden="true" role="listbox" aria-labelledby="save-button" id="save-menu" style="width: auto; height: auto;" aria-disabled="false" aria-activedescendant="ui-selectmenu-item-584"><li role="presentation" class="ui-corner-top ui-selectmenu-item-selected ui-state-active ui-selectmenu-item-focus"><a href="#nogo" tabindex="-1" role="option" aria-selected="true" id="ui-selectmenu-item-584">Speichern als...</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Speichern als PDF</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Speichern als ZIP</a></li><li role="presentation" class="ui-corner-bottom"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Speichern als EML</a></li></ul></div></body></html>
