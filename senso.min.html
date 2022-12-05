@@ -1,0 +1,23 @@
+
+<html style="background-color:black;">
+
+<style>
+div {
+  float: left;
+  height: 300px;
+  width: 300px;
+}
+</style>
+
+    <div id="green"></div> <div id="red"></div>
+    <div style="clear:both;" id="goldenrod"></div> <div id="blue"></div>
+  
+<script>
+
+var color=['green','red','goldenrod','blue'];var seq=[getRandomInt(4)];var index=0;var last=seq.length;function getRandomInt(max){return Math.floor(Math.random()*max)}function beep(){var context=new AudioContext();var o=context.createOscillator();o.type="square";o.frequency.value=200;o.connect(context.destination);o.start();setTimeout(function(){o.stop()},100)}function reset(nr){document.getElementById(color[nr]).style.backgroundColor="dark"+color[nr]}function blink(nr){beep();document.getElementById(color[nr]).style.backgroundColor=color[nr];setTimeout(reset,500,nr)}function display(){for(i=0;i<last;i++){setTimeout(blink,1000+i*1000,seq[i])}}function check(event,nr){var target=event.target||event.srcElement;lastID=target.id;console.log(target.id);setTimeout(blink,1,color.indexOf(lastID));if(lastID==color[seq[index]]){if(index==(last-1)){last+=1;seq.push(getRandomInt(4));index=0;display();return}}else{setTimeout(function(n){alert("Your score is: "+n);window.location.reload(true)},500,last-1);return}index+=1}function init(i){document.getElementById(color[i]).style.backgroundColor="dark"+color[i];const element=document.getElementById(color[i]);element.addEventListener("click",check)}for(i=0;i<4;i++){init(i)}display();
+
+</script>
+
+
+</html>
+
