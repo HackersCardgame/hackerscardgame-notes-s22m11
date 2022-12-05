@@ -10,8 +10,8 @@ div {
 }
 </style>
 
-    <div id="green">■</div> <div id="red">■</div>
-    <div style="clear:both;" id="goldenrod">■</div> <div id="blue">■</div>
+    <div id="green"></div> <div id="red"></div>
+    <div style="clear:both;" id="goldenrod"></div> <div id="blue"></div>
   
 <script>
 
@@ -60,10 +60,10 @@ function display()
 
 function check(event, nr)
 {
-  beep();
   var target = event.target || event.srcElement;
   lastID = target.id;
-  console.log(lastID, index, sequence[index], color[sequence[index]]);
+  console.log(target.id);
+  setTimeout(blink, 1, color.indexOf(lastID));
   if (lastID == color[sequence[index]])
   {
     if (index==(last-1))
@@ -95,10 +95,6 @@ for (i = 0; i < 4; i++)
 }
 
 display();
-
-
-
-
 
 </script>
 

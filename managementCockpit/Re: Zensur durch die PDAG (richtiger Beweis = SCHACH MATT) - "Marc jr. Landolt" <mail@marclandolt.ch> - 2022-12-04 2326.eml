@@ -1,0 +1,148 @@
+Return-Path: <mail@marclandolt.ch>
+Delivered-To: mail@marclandolt.ch
+Received: from mail-lb1.adm.hostpoint.ch ([10.4.2.213])
+	by popimap018.mail.hostpoint.internal with LMTP
+	id yKKkJ/AejWPqbQAA9BAvQA:P1
+	(envelope-from <mail@marclandolt.ch>)
+	for <mail@marclandolt.ch>; Sun, 04 Dec 2022 23:28:00 +0100
+Received: from mxin013.mail.hostpoint.ch ([10.4.2.213])
+	by mail-lb1.adm.hostpoint.ch with LMTP
+	id yKKkJ/AejWPqbQAA9BAvQA
+	(envelope-from <mail@marclandolt.ch>)
+	for <mail@marclandolt.ch>; Sun, 04 Dec 2022 23:28:00 +0100
+Received: from mxout013.mail.hostpoint.ch ([217.26.49.173])
+	by mxin013.mail.hostpoint.ch with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.95 (FreeBSD))
+	(envelope-from <mail@marclandolt.ch>)
+	id 1p1xSq-0007xz-K0
+	for hackerspace@marclandolt.ch;
+	Sun, 04 Dec 2022 23:28:00 +0100
+Received: from [10.0.2.46] (helo=asmtp013.mail.hostpoint.ch)
+	by mxout013.mail.hostpoint.ch with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.95 (FreeBSD))
+	(envelope-from <mail@marclandolt.ch>)
+	id 1p1xSp-000Jtf-M6;
+	Sun, 04 Dec 2022 23:27:59 +0100
+Received: from mob-194-230-160-192.cgn.sunrise.net ([194.230.160.192] helo=[192.168.1.77])
+	by asmtp013.mail.hostpoint.ch with esmtpsa  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.95 (FreeBSD))
+	(envelope-from <mail@marclandolt.ch>)
+	id 1p1xSp-000Kgb-Bh;
+	Sun, 04 Dec 2022 23:27:59 +0100
+X-Authenticated-Sender-Id: mail@marclandolt.ch
+Message-ID: <5a0c4314-6195-72a0-83be-0f0a677e5ce9@marclandolt.ch>
+Date: Sun, 4 Dec 2022 23:26:42 +0100
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101
+ Thunderbird/102.5.0
+Subject: Re: Zensur durch die PDAG (richtiger Beweis = SCHACH MATT)
+Content-Language: en-US
+From: "Marc jr. Landolt" <mail@marclandolt.ch>
+To: marc.landolt@0x8.ch, Bauhofer Elisabeth GKAOG <Elisabeth.Bauhofer@ag.ch>,
+ Jordi Beatrice GKAOG <Beatrice.Jordi@ag.ch>,
+ Schleusener Samer <Samer.Schleusener@pdag.ch>, marc.walter@pdag.ch,
+ lukas.cotti@ag.ch, lenke.galambos@pdag.ch, EPD.Aarau@pdag.ch,
+ Leitung ZPPA <leitung.zppa@pdag.ch>,
+ Spring Marco DVISTABAD <marco.spring@ag.ch>, Katrin.Hanno@pdag.ch,
+ reto.leiser@ag.ch, gesundwerk@hin.ch, nora.tetter@ksa.ch, hno@ksa.ch,
+ anmeldung@gesundwerk.ch, info@mfgroup.ch, info@mfhealth.ch,
+ redaktion@beobachter.ch, info@beobachter.ch, abusedesk@upc.ch,
+ hp.meili@yetnet.ch, Postmaster-VBS@gs-vbs.admin.ch,
+ kommunikation@gs-vbs.admin.ch, ict-warrioracademy.fub@vtg.admin.ch,
+ direktion@bger.ch, Kanzlei@bger.ch, jan@lydiabenecke.de, info@interpol.int,
+ Blyzniuk Bohdan <bohdan.blyzniuk@pdag.ch>
+References: <ef30e8be-b097-44a4-f7f6-5a4b3d1a537c@marclandolt.ch>
+ <e486601a-fb18-8f6b-601e-79e533a541d6@marclandolt.ch>
+ <09f5f5f2-3698-2390-a71e-6360bdc60ace@marclandolt.ch>
+ <764404f0-7c64-c09d-4e54-22eefc3610c8@marclandolt.ch>
+ <d80c402a-af6b-c2dd-7705-f371aec2330a@marclandolt.ch>
+ <e3d29fc2-2c90-2080-4514-03d4267569a5@marclandolt.ch>
+ <4eafda74-2125-20d6-0a4e-9d3a26ce3b39@marclandolt.ch>
+ <a9d6a633-d1f5-d190-39f9-db5b92058e0b@marclandolt.ch>
+ <fbc385df-3e2d-a8d9-8883-e625ff6e5d39@marclandolt.ch>
+Disposition-Notification-To: "Marc jr. Landolt" <mail@marclandolt.ch>
+In-Reply-To: <fbc385df-3e2d-a8d9-8883-e625ff6e5d39@marclandolt.ch>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Whitelisted-By: dnswl.hostpoint.dnslist
+X-Vs-State: LEGIT
+X-Forwarded-Original-Recipient: hackerspace@marclandolt.ch 
+X-Original-To: hackerspace@marclandolt.ch
+X-Hostpoint-Spambox: NO
+
+Das gibt dann auch Einblick in die Polizei Arbeit, in die Arbeit der 
+Psychiatrie und der Justiz, wenn ein Mensch zweiter Klasse wie ich, ein 
+Skalve, ein Autist, ein Kind etwas beweisen kann was nicht richtig läuft 
+beim Staate Aargau, dann haben die genug Personal und Budget das zu 
+vertuschen.
+
+Meiner Meinung nach sollte man all diesen Menschen den Lohn streichen, 
+denn das sind teilweise auch Steuergelder von Unbscholtenen Bürgern mit 
+denen sie sich einen luxus BMW für die Polizei-Arbiet leisten, wo dann 
+der Polizist "Würsten" (wie kann man nur so einen Namen haben) damit 
+noch angibt um tiefen Selbstwert zu kompensieren.
+
+Also ist ein ganzes Team von straffälligen Richtern, Psychiatern, 
+Polizisten mir am das Leben schwer machen was echt nicht sein müsste.
+
+
+On 12/4/22 22:36, Marc jr. Landolt wrote:
+> 
+> Sehr schönes Foto von einem Straftatbestand, denn "Zensur findet in der 
+> Schweiz nicht Statt" sagt die Bundesverfassung.
+> 
+> Psychiatrie Königsfelden zensiert aktiv Artikel im Netz, wie damals den 
+> Risperdal Wikipedia Artikel Count >= 1 wo drin stand dass das Medikament 
+> "zur Intelligenzmiderung verwendet würde", nach dem ich das der 
+> Psychiatrie Königsfelden gemeldet habe war das plötzlich nicht mehr im 
+> Wikipedia.
+> 
+> Wir haben es hier somit mit einer grösseren Zensur-Infrastruktur zu tun, 
+> die so etwas als erstes von Google löscht, als zweites in der 
+> Suchfunktion der Webseite [1] auch nochmals zensiert und ausserdem 
+> Mitarbeiter die in der Wikipedia Dinge editieren, was dann heisst dass 
+> sich die Psychiatrie anmasst alle diese Dinge zu Diagnosen, 
+> Medikamenten, Coping Strategien zu verschlingen um ihre falsche 
+> Weltsicht "zu beweisen"
+> 
+> Diese zwei Screenshots stellen den
+> 
+>         _ _   _                 _   _
+>   _   _| | |_(_)_ __ ___   __ _| |_(_)_   _____ _ __
+> | | | | | __| | '_ ` _ \ / _` | __| \ \ / / _ \ '_ \
+> | |_| | | |_| | | | | | | (_| | |_| |\ V /  __/ | | |  _   _   _
+>   \__,_|_|\__|_|_| |_| |_|\__,_|\__|_| \_/ \___|_| |_| (_) (_) (_)
+> 
+>   ... Beweis dar für all meine "Spinner"-Behauptungen.
+> 
+> Und genau das ist auch der Grund weshalb Ihr informatik begabte Autisten 
+> hasst, die schaffen es regelmässig EUREN Betrug aufzudecken, wie auch 
+> das mit der Wirtschaftsspionage oder dem Mord an Tobias Moser.
+> 
+> Ich bitte darum mir die PDAG-Psychiatrie-Akte des verstorbenen Patienten 
+> Tobias Moser zuzustellen. Ein Verstorbener hat kein Persönlichkeitsrecht 
+> mehr.
+> 
+> Des weiteren haben wir somit ein Problem mit
+> 
+>   _____
+> |  ___|__  _ __ _   _ _ __ ___
+> | |_ / _ \| '__| | | | '_ ` _ \
+> |  _| (_) | |  | |_| | | | | | |  _ _ _
+> |_|  \___/|_|   \__,_|_| |_| |_| (_|_|_)
+> 
+> ... Software, da sind scheinbar die Such-Funktionen manipuliert und 
+> haben wie Twitter auch bereits eine Shadow-Ban Funktion.
+> 
+> Viel Spass beim Abstreiten dieses Beiweises (Attachement) vor Gericht.
+> 
+> [1] 
+> https://autismusforumschweiz.ch/index.php?thread/1325-es-gibt-keine-echte-hilfe/&postID=5692&highlight=pdag#post5692
+> 
+> Mit freundlichen Grüssen
+> 
+> Marc jr. Landolt
+> eidg. dipl. Informatiker HF
+> Neuenburgerstrasse 6
+> 5004 Aarau
+> 
